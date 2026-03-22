@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.logo img{
+    height:97px ;
+    width: 100px;
+}
+.menu a{
+text-decoration: none;
+color: aliceblue;
+font-size:larger;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+   height: 6rem; 
+   display: flex;
+background: black;
+   justify-content: space-between;
+   padding: 0px 3rem;
+}
+header{
+    background-image: url(./images/eid.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+header h1{
+ color: aliceblue;
+    font-size: 3rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-bottom: 3px;
+}
+header p{
+color: aliceblue;
+font-size: 1.3rem;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+text-align: center;
+}
+.products{
+      background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+padding: 5px;
+padding: 10px;
+}
+section img{
+    height: 250px;
+    width: 250px;
+}
+section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.card{
+    background-color: black;
+    width: 250px; 
+    height: px;
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plate{
+    width: 400px;
+    height: 250px;
+    color: aliceblue;
+    background-color: dimgray;
+    display: flex;
+    gap: 10px;
+    
+}
+button{
+    border: none;
+    height: 50px;
+    width: 100px;
+    background-color: dimgray;
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: larger;
+}
+footer{
+display: flex;
+flex-direction: row;
+color: aliceblue;
+background-color: darkslategray;
+margin-top: 20px;
+align-items: center;
+gap: 5%;
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: aliceblue;
+}
+footer img{
+      width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+.copy{
+    display: flex;
+    margin-bottom:px;
+    gap: 10%;
+    text-align: center;
+    background-color: lightslategray;
+    height: 50px;
+}
+.welcome h2{
+    background-color: black;
+    color: aliceblue;
+    font-size: 3rem;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+.welcome p{
+ color: aliceblue;
+    font-size: 1.5rem;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+text-align: center;    
+}
+.welcome{
+background-image: url(./images/neccesity.webp);
+}
+.neccesities{
+ background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: lighter;   
+}
+.bun{
+       width: 300px;
+    height: 200px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom:5px;
+    background-color: slategrey;
+    color: aliceblue;
+}
+.bun button{
+    color: aliceblue;
+    border-radius: 10px;
+     cursor: pointer;
+     background-color: dimgray;
+}
+.goods{
+    display: flex;
+    gap: 20px;
+    padding: 5%;
+}
